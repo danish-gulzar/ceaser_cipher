@@ -1,6 +1,8 @@
-# Simple Caesar Cipher
+# DecodeLabs Cybersecurity Internship - Project 2
 
-A Python implementation of the Caesar cipher, a classic substitution cipher technique.
+## Basic Encryption & Decryption — Caesar Cipher
+
+A Python implementation of the Caesar cipher as part of the DecodeLabs Cybersecurity Internship program.
 
 ## What is Caesar Cipher?
 
@@ -28,12 +30,12 @@ python caesar_cipher.py
 from caesar_cipher import caesar_cipher
 
 # Encrypt a message
-encrypted = caesar_cipher("Hello, World!", 3)
-print(encrypted)  # Output: Khoor, Zruog!
+encrypted = caesar_cipher("I'm a Hacker", 3)
+print(encrypted)  # Output: L'p d Kdfnhu
 
 # Decrypt a message
 decrypted = caesar_cipher(encrypted, -3)
-print(decrypted)  # Output: Hello, World!
+print(decrypted)  # Output: I'm a Hacker
 ```
 
 ## Example Output
@@ -58,6 +60,8 @@ The modulo operation ensures that the shift wraps around the alphabet (e.g., 'z'
 
 - Python 3.x
 
-## License
+## Project Information
 
-This project is open source and available for educational purposes.
+- **Project**: DecodeLabs Cybersecurity Internship - Project 2
+- **Topic**: Basic Encryption & Decryption
+- **Technique**: Caesar Cipher
