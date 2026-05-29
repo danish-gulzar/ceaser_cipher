@@ -19,13 +19,13 @@ The Caesar cipher is one of the simplest and most widely known encryption techni
 ### Running the script
 
 ```bash
-python simple_caesar.py
+python caesar_cipher.py
 ```
 
 ### Using the function in your code
 
 ```python
-from simple_caesar import caesar_cipher
+from caesar_cipher import caesar_cipher
 
 # Encrypt a message
 encrypted = caesar_cipher("Hello, World!", 3)
